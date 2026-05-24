@@ -55,8 +55,8 @@ random.seed(SEED)
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = "/Users/4c/Desktop/GHQ/KvantniRegresor/loto7_4620_k41.csv"
-OUT_TXT = Path("/Users/4c/Desktop/GHQ/KvantniRegresor/Regresor_SVR_v2_predikcija.txt")
+CSV_PATH = "/loto7_4620_k41.csv"
+OUT_TXT = Path("/Regresor_SVR_v2_predikcija.txt")
 N_MIN, N_MAX = 1, 39
 K = 7
 LAG = 5
@@ -367,9 +367,9 @@ Treniranje SVR pozicionog (skaliran + mapiran) ...
 ✅ SVR pozicioni mapirani treniran.
 
 
-🎯 Predicted Next Lottery Numbers SVR_v2: [10, 18, 23, 25, 26, 32, 36] suma=170, neparnih=2/7, niskih(<=19)=2/7, raspon=26
-🎯 Predicted Next Lottery Numbers predicted_numbers2 skalirani mapirani: [4, 10, 14, 20, 25, 31, 37]
-    (top-7 iz pozicionih skorova): [4, 10, 14, 20, 25, 31, 37] suma=141, neparnih=3/7, niskih(<=19)=3/7, raspon=33
+🎯 Predicted Next Lottery Numbers SVR_v2: [10, x, 23, y, 26, z, 36] suma=170, neparnih=2/7, niskih(<=19)=2/7, raspon=26
+🎯 Predicted Next Lottery Numbers predicted_numbers2 skalirani mapirani: [4, x, 14, y, 25, z, 37]
+    (top-7 iz pozicionih skorova): [4, x, 14, y, 25, z, 37] suma=141, neparnih=3/7, niskih(<=19)=3/7, raspon=33
 
 Back-test (poslednjih 100 izvlačenja):
 model            hits/7    hit%     AUC    LRAP
@@ -377,7 +377,7 @@ SVR_v2            1.280   18.3%   0.548   0.247
 SVR_mapirani      1.180   16.9%   0.499   0.245
 (slučajan baseline ≈ 1.256 hits/7)
 
-Snimljeno u: /Users/4c/Desktop/GHQ/KvantniRegresor/Regresor_SVR_v2_predikcija.txt
+Snimljeno u: /Regresor_SVR_v2_predikcija.txt
 
 
 
