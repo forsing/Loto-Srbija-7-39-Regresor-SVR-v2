@@ -1,0 +1,8 @@
+
+--- 2026-05-24 18:19:23.162387 (seed=39, N=4620) ---
+SVR_v2                            -> [10, 18, 23, 25, 26, 32, 36]  (suma=170, neparnih=2/7, niskih(<=19)=2/7, raspon=26)
+predicted_numbers2 skal. mapirani -> [4, 10, 14, 20, 25, 31, 37]
+  top-7 iz pozicionih skorova     -> [4, 10, 14, 20, 25, 31, 37]  (suma=141, neparnih=3/7, niskih(<=19)=3/7, raspon=33)
+back-test SVR_v2:       hits/7=1.280, AUC=0.548, LRAP=0.247
+back-test SVR_mapirani: hits/7=1.180, AUC=0.499, LRAP=0.245
+  (slučajan baseline ≈ 1.256 hits/7)
